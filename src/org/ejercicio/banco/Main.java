@@ -8,7 +8,7 @@ public class Main {
         CuentaBancaria ca = new CuentaBancaria("A-1001", a, 1500.0);
         CuentaBancaria cb = new CuentaBancaria("B-2001", b, 800.0);
 
-        System.out.println("== Estado inicial ==");
+        System.out.println("== Estado inicial UMT==");
         System.out.println(ca);
         System.out.println(cb);
 
