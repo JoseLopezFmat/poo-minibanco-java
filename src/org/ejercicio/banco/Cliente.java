@@ -1,19 +1,12 @@
 package org.ejercicio.banco;
 
 public class Cliente {
-    private final String id;
-    private String nombre;
+    String nombre;
+    long dni;
 
-    public Cliente(String id, String nombre) {
-        this.id = id;
-        this.nombre = nombre;
+    public Cliente(String str,long num) {
+        this.dni = num;
+        this.nombre = str;
     }
-    public String getId() { return id; }
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
-
-    @Override
-    public String toString() {
-        return "Cliente{id='" + id + "', nombre='" + nombre + "'}";
-    }
+    public Cliente(){}
 }
