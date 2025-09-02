@@ -8,6 +8,8 @@ public class Main {
     Cliente cliente2 = new Cliente("Jose Luis",333);
     
     CuentaBancaria   cuenta2 = new CuentaBancaria(123,new Cliente("Juan Perez",234),1200);
+
+    Cliente cliente3 = new Cliente("Luis Dominguez", 567);
     
      
     }
